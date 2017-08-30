@@ -18,6 +18,38 @@
   font-size: large;
 }
 
+.parag {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: flex-start;
+  border: 1px solid blue;
+}
+
+.left-box {
+  border: 1px solid red;
+  flex-grow: 1;
+}
+
+.right-box {
+  border: 1px solid orange;
+  flex-grow: 1;
+}
+
+.individual-box-container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: stretch;
+  border: 1px solid violet;
+  height: 400px;
+}
+
+.individual-box {
+  border: 1px solid green;
+  height: 100%;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
